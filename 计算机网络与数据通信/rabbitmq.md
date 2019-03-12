@@ -145,6 +145,10 @@ headers 类型的交换器不依赖于路由键的匹配规则来路由消息，
 
 前面提到了 RabbitMQ 是由 Erlang语言编写的，也正因如此，在安装RabbitMQ 之前需要安装 Erlang。
 
+在安装rabbitmq的时候需要注意rabbitmq 和erlang版本的关系，如果两者关系不一一对应的话，那么会导致出错的。
+rabbitmq 版本和 erlang  的关系
+![image](https://djxblog.oss-cn-shenzhen.aliyuncs.com/picture/rabbitmq/rabbitmq%E5%92%8CErlang%E7%89%88%E6%9C%AC%E5%85%B3%E7%B3%BB.png)
+
 ### 2.1 安装 erlang
 
 **1 下载 erlang 安装包**
